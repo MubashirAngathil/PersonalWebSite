@@ -10,10 +10,11 @@ body{
   display: none;
 }
 .header{
-  background-image:url('Assets/Banner.jpg') ;
+  background-image:url('/Assets/Banner.jpg') ;
   width: 100%;
+  background-size: 50rem 50rem;
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position: right;
   height: 43rem;
 }
 .title_intro{

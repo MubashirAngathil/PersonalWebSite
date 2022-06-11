@@ -4,14 +4,12 @@ body{
   padding: 0;
   background: black;
   font-family:serif;
-  overflow-x: hidden;
 }
 ::-webkit-scrollbar{
   display: none;
 }
 .header{
   background-image:url('/Assets/Banner.jpg') ;
-  /* background-size:  90rem; */
   height: 42rem;
   background-position-y:-15rem ;
   background-repeat: no-repeat;
@@ -149,8 +147,6 @@ body{
 }
 
 .home-title-card{
-  /* background-color: #f8f8f8; */
-  width: 40rem;
   height: 15rem;
   border-radius: 10px;
   justify-content: center;
@@ -227,8 +223,10 @@ body{
 /* Footer */
 
 .footer{
-  background-color: black;
+  background-color: rgb(28, 28, 28);
   height:25rem;
+  padding-top: 5rem;
+  padding-left: 2%;
 }
 
 /* social media icons*/
@@ -240,4 +238,9 @@ body{
 .social_media-icon{
   cursor: pointer;
   margin-left: 10px;
+}
+.footer-bar{
+  background-color: rgb(10, 164, 241);
+  padding: 1rem;
+  text-align: center;
 }

@@ -11,14 +11,13 @@ body{
 }
 .header{
   background-image:url('/Assets/Banner.jpg') ;
-  width: 100%;
-  background-size: 50rem 50rem;
+  /* background-size:  90rem; */
+  height: 42rem;
+  background-position-y:-15rem ;
   background-repeat: no-repeat;
-  background-position: right;
-  height: 43rem;
 }
 .title_intro{
-  margin-top: 24rem;
+  margin-top: 22rem;
   margin-left:5%;
 }
 .title_name{
@@ -159,15 +158,15 @@ body{
 
 /* Experience card section */
 .card{
-  background-color: #000000e5;
-  color: rgb(213, 213, 213);
+  background-color: #030303e5;
+  color: rgb(255, 253, 253);
   padding: 1.5rem;
-  box-shadow: 1px 1px 5px 1px;
+  box-shadow: 0px 0px 9px 2px aqua;
   margin: .5rem;
   border-radius: 10px;
 }
 .experience{
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
   padding-top: 1rem;
 }
 .company_name{
@@ -200,7 +199,7 @@ body{
 
 /* Education section style */
 .education{
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(0, 0, 0);
   padding-top:1rem; 
   padding-bottom: 1rem;
 }
@@ -209,7 +208,7 @@ body{
   background-color: #000000e5;
   color: rgb(213, 213, 213);
   padding: 2rem;
-  box-shadow: 1px 1px 5px 1px;
+  box-shadow: 0px 0px 9px 2px aqua;
   margin-top: 1.5rem;
   border-radius: 10px;
 }

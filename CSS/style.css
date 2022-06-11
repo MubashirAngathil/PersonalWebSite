@@ -10,7 +10,7 @@ body{
   display: none;
 }
 .header{
-  background-image:url('https://i.pinimg.com/originals/5e/90/8b/5e908bdb2f485387901810d02c352cb0.jpg') ;
+  background-image:url('Assets/Banner.jpg') ;
   width: 100%;
   background-repeat: no-repeat;
   background-position-x: right;
